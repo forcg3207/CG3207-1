@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Zhou Yizhou/Desktop/CG3207/lab3/ProgTest_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="progtest" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/progtest/dip" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dip[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dip[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/progtest/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/progtest/clk_undiv" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_undiv</obj_property>
+      <obj_property name="ObjectShortName">clk_undiv</obj_property>
+   </wvobject>
+   <wvobject fp_name="/progtest/led" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">led[15:0]</obj_property>
+      <obj_property name="ObjectShortName">led[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/progtest/clk_undiv_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_undiv_period</obj_property>
+      <obj_property name="ObjectShortName">clk_undiv_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/progtest/uut/MIPS1/addr_instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/progtest/uut/MIPS1/instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/progtest/uut/MIPS1/addr_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/progtest/uut/MIPS1/data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/progtest/uut/MIPS1/data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/progtest/uut/MIPS1/memread" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memread</obj_property>
+      <obj_property name="ObjectShortName">memread</obj_property>
+   </wvobject>
+   <wvobject fp_name="/progtest/uut/MIPS1/memwrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memwrite</obj_property>
+      <obj_property name="ObjectShortName">memwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/progtest/uut/MIPS1/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/progtest/uut/MIPS1/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/progtest/uut/MIPS1/branchaddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">branchaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">branchaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/progtest/uut/MIPS1/pc_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_in[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/progtest/uut/MIPS1/pc_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/progtest/uut/MIPS1/regdst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">regdst</obj_property>
+      <obj_property name="ObjectShortName">regdst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/progtest/uut/MIPS1/writeaddr_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">writeaddr_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">writeaddr_reg[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/progtest/uut/MIPS1/writedata_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">writedata_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writedata_reg[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">registers[0:31]</obj_property>
+      <obj_property name="ObjectShortName">registers[0:31]</obj_property>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">registers[0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">registers[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">registers[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">registers[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">registers[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">registers[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">registers[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">registers[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">registers[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">registers[9]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">registers[10]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">registers[11]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">registers[12]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">registers[13]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">registers[14]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">registers[15]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">registers[16]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[17]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">registers[17]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">registers[18]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">registers[19]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[20]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">registers[20]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[21]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">registers[21]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[22]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">registers[22]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[23]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">registers[23]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[24]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">registers[24]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[25]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">registers[25]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[26]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">registers[26]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[27]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">registers[27]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[28]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">registers[28]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[29]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">registers[29]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[30]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">registers[30]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/progtest/uut/MIPS1/RegFile1/registers[31]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">registers[31]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/progtest/uut/MIPS1/rs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/progtest/uut/MIPS1/rt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/progtest/uut/MIPS1/rd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

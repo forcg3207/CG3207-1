@@ -1,0 +1,36 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Zhou Yizhou/Desktop/CG3207/lab3/ProgTest_isim_beh.exe -prj C:/Users/Zhou Yizhou/Desktop/CG3207/lab3/ProgTest_beh.prj work.ProgTest 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Zhou Yizhou/Desktop/CG3207/lab3/SignExtender.vhd" into library work
+Parsing VHDL file "C:/Users/Zhou Yizhou/Desktop/CG3207/lab3/RegFile.vhd" into library work
+Parsing VHDL file "C:/Users/Zhou Yizhou/Desktop/CG3207/lab3/PC.vhd" into library work
+Parsing VHDL file "C:/Users/Zhou Yizhou/Desktop/CG3207/lab3/InstrDecoder.vhd" into library work
+Parsing VHDL file "C:/Users/Zhou Yizhou/Desktop/CG3207/lab3/ControlUnit.vhd" into library work
+Parsing VHDL file "C:/Users/Zhou Yizhou/Desktop/CG3207/lab3/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/Zhou Yizhou/Desktop/CG3207/lab3/MIPS.vhd" into library work
+Parsing VHDL file "C:/Users/Zhou Yizhou/Desktop/CG3207/lab3/TOP.vhd" into library work
+Parsing VHDL file "C:/Users/Zhou Yizhou/Desktop/CG3207/lab3/ProgTest.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture arch_pc of entity PC [pc_default]
+Compiling architecture arch_instrdecoder of entity InstrDecoder [instrdecoder_default]
+Compiling architecture arch_signextender of entity SignExtender [\SignExtender(16)\]
+Compiling architecture arch_alu of entity ALU [alu_default]
+Compiling architecture arch_controlunit of entity ControlUnit [controlunit_default]
+Compiling architecture arch_regfile of entity RegFile [regfile_default]
+Compiling architecture arch_mips of entity MIPS [mips_default]
+Compiling architecture arch_top of entity TOP [top_default]
+Compiling architecture behavior of entity progtest
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 22 VHDL Units
+Built simulation executable C:/Users/Zhou Yizhou/Desktop/CG3207/lab3/ProgTest_isim_beh.exe
+Fuse Memory Usage: 36916 KB
+Fuse CPU Usage: 763 ms
